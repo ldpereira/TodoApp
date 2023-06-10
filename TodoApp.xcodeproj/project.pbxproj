@@ -7,22 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7634EEB32A34C2730095BFD8 /* TodoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634EEB22A34C2730095BFD8 /* TodoAppApp.swift */; };
+		7634EEB32A34C2730095BFD8 /* TodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634EEB22A34C2730095BFD8 /* TodoApp.swift */; };
 		7634EEB52A34C2730095BFD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634EEB42A34C2730095BFD8 /* ContentView.swift */; };
 		7634EEB72A34C2770095BFD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7634EEB62A34C2770095BFD8 /* Assets.xcassets */; };
 		7634EEBA2A34C2770095BFD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7634EEB92A34C2770095BFD8 /* Preview Assets.xcassets */; };
 		7634EEC22A34C3B00095BFD8 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634EEC12A34C3B00095BFD8 /* TaskModel.swift */; };
 		7634EEC52A34C5940095BFD8 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634EEC42A34C5940095BFD8 /* ListViewModel.swift */; };
+		7634EEC82A34CBB80095BFD8 /* NoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634EEC72A34CBB80095BFD8 /* NoListView.swift */; };
+		7634EECA2A34CDD30095BFD8 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634EEC92A34CDD30095BFD8 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7634EEAF2A34C2730095BFD8 /* TodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7634EEB22A34C2730095BFD8 /* TodoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppApp.swift; sourceTree = "<group>"; };
+		7634EEB22A34C2730095BFD8 /* TodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoApp.swift; sourceTree = "<group>"; };
 		7634EEB42A34C2730095BFD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7634EEB62A34C2770095BFD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7634EEB92A34C2770095BFD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7634EEC12A34C3B00095BFD8 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
 		7634EEC42A34C5940095BFD8 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		7634EEC72A34CBB80095BFD8 /* NoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoListView.swift; sourceTree = "<group>"; };
+		7634EEC92A34CDD30095BFD8 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +59,10 @@
 		7634EEB12A34C2730095BFD8 /* TodoApp */ = {
 			isa = PBXGroup;
 			children = (
+				7634EEC62A34CBA40095BFD8 /* Views */,
 				7634EEC32A34C54F0095BFD8 /* ViewModels */,
 				7634EEC02A34C2A40095BFD8 /* Models */,
-				7634EEB22A34C2730095BFD8 /* TodoAppApp.swift */,
+				7634EEB22A34C2730095BFD8 /* TodoApp.swift */,
 				7634EEB42A34C2730095BFD8 /* ContentView.swift */,
 				7634EEB62A34C2770095BFD8 /* Assets.xcassets */,
 				7634EEB82A34C2770095BFD8 /* Preview Content */,
@@ -87,6 +92,15 @@
 				7634EEC42A34C5940095BFD8 /* ListViewModel.swift */,
 			);
 			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		7634EEC62A34CBA40095BFD8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7634EEC72A34CBB80095BFD8 /* NoListView.swift */,
+				7634EEC92A34CDD30095BFD8 /* AddView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,8 +175,10 @@
 			files = (
 				7634EEC22A34C3B00095BFD8 /* TaskModel.swift in Sources */,
 				7634EEB52A34C2730095BFD8 /* ContentView.swift in Sources */,
+				7634EECA2A34CDD30095BFD8 /* AddView.swift in Sources */,
+				7634EEC82A34CBB80095BFD8 /* NoListView.swift in Sources */,
 				7634EEC52A34C5940095BFD8 /* ListViewModel.swift in Sources */,
-				7634EEB32A34C2730095BFD8 /* TodoAppApp.swift in Sources */,
+				7634EEB32A34C2730095BFD8 /* TodoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,8 +313,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +322,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = LPEnterprise.TodoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -326,8 +345,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +354,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = LPEnterprise.TodoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
