@@ -36,7 +36,7 @@ class ListViewModel: ObservableObject {
         tasks.remove(atOffsets: indexSet)
     }
     
-    func moveTasks(from: IndexSet, to: Int) {
+    func moveTask(from: IndexSet, to: Int) {
         tasks.move(fromOffsets: from, toOffset: to)
     }
     
